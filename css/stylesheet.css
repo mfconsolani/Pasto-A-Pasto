@@ -1,0 +1,221 @@
+body {
+    background-color: #ffffff;
+}
+
+#google-play {
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    top: 10px;
+    left: 4px;
+}
+
+#google-play-link {
+    width: auto;
+    height: 30px;
+    opacity: 0.8;
+}
+
+
+#log-in {
+    background-color: #ffffff;
+    height: 500px;
+    width: 400px;
+    border: 2px solid #a2de9640;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    position:relative;
+}
+
+#log-in-title {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+    opacity: 0.7;
+    display: flex;
+    align-self: flex-end;
+}
+
+#titulo {
+    display: flex;
+    align-self: flex-end;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Covered By Your Grace', cursive;
+    opacity: 1;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+
+#slogan {
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: large;
+    font-weight: 300;
+    text-align:center;
+    margin-top: 10px;
+}
+
+#slogan span {
+    font-weight: 500;
+    font-style: italic;
+    color: #21bf7388;
+}
+
+hr {
+    height: 1px;
+    color: #a2de96;
+    background-color: #a2de96;
+    opacity: 0.3;
+    margin: 0 40px 0 40px;
+    
+}
+
+#hr-two {
+    height: 1px;
+    color: #a2de96;
+    background-color: #a2de96;
+    opacity: 0.3;
+    margin: 30px 20px 4px 20px;
+    
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #5b5656;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+i {
+    color: #21bf7388;
+}
+
+#mail::placeholder {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+
+#password::placeholder {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+
+#submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+#check-in {
+    font-family: 'Jost', sans-serif;
+    color: #404040;
+    background-color: #5b56560d;
+    border: 2px solid #21bf7388;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding: 7px 20px 7px 20px;
+    
+}
+
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+#forgot-password-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+small {
+    font-family: 'Jost', sans-serif;
+    color: #21bf73;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #40404080;
+    opacity: 0.3;
+    height: 1px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+
+#create-account {
+    display: flex;
+    justify-content: center;
+}
+
+#register {
+    font-family: 'Jost', sans-serif;
+    color: #404040;
+    background-color: #21bf7388;
+    border: 2px solid #40404080;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 7px 20px 7px 20px;
+}
+
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  
